@@ -1,0 +1,403 @@
+ body {
+      background-color: #ffffff;
+      font-family: "Afacad", serif;
+      margin: 0
+}
+
+header {
+      display: inline;
+    }
+
+    img {
+
+        max-width: 100%;
+    }
+header img {
+    padding: 14px 1px 10px 20px;
+    float: inline-start;
+    background-color: #F9D6B0;
+    max-width: 36px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #F9D6B0;
+    height: 60px;
+} 
+
+header h2 {
+    font-size: 24px;
+    color: #C26B35;
+    padding: 0px 20px 0px 0px;
+}
+
+.sottotitolo {
+   font-weight: lighter;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C26B35;
+    list-style: none;
+    padding: 1vw 5vw 1vw 5vw;
+    margin: 0;
+
+}
+
+.item1 {
+    font-weight: bolder;
+    text-decoration: underline 3px solid #F9D6B0;
+    
+
+}
+ header a {
+   
+    color: #F9D6B0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ header a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+ img.parchi {
+    height: auto;
+    width: 100%;
+}
+ section.articolouno {
+    max-width: auto;  
+    display: grid;
+    justify-content: space-between;
+    margin-bottom: 30px;
+ } 
+ h1 {
+    margin-top: 50px;
+    padding: 0 0 0 17vw;
+    max-width: 360px;
+    color: #435c18;
+    font-size: 40px;
+    text-align: justify;
+    border-bottom: 30px solid #f9d6b0;
+    letter-spacing: -.3px;
+}
+ 
+
+ main section.articolouno h2 {
+    margin-top: 25px; 
+    color:#C26B35;
+    font-size: 30px;
+    text-align: justify;
+    padding:0 17vw 0 17vw;
+ }
+ main section.articolouno p {
+    margin-top: 15px;
+    color:#435c18;
+    font-size: 25px;
+    text-align: justify;
+    padding: 0 17vw 0 17vw;
+    letter-spacing: -.3px;
+    /*max-width: 1200px; */
+ }
+
+#container-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+    gap: 30px;
+    max-width:1050px;
+    margin:0 auto;
+    padding: 20px;
+    text-align: center;
+    }
+.image1-container {
+    position: relative;
+    width: 100%;
+}
+
+.image1-container img {
+    height: 290px;
+    width: auto;
+}
+main a {
+    color: #C26B35;
+    text-decoration: none;
+}
+
+.text1-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C26B35;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.text1-overlay :hover{
+    text-decoration: none;
+    color: #F9D6B0; 
+}
+.image2-container {
+    position: relative;
+    width: 100%;
+}
+
+.image2-container img {
+    height: 290px;
+    width: auto;
+}
+
+.text2-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C26B35;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.text2-overlay :hover{
+    text-decoration: none;
+    color: #F9D6B0; 
+}
+
+.image3-container {
+    position: relative;
+    width: 100%;
+}
+
+.image3-container img {
+    height: 290px;
+    width: auto;
+}
+
+.text3-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C26B35;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.text3-overlay :hover{
+    text-decoration: none;
+    color: #F9D6B0; 
+}
+
+.image4-container {
+    position: relative;
+    width: 100%;
+}
+
+.image4-container img {
+    height: 290px;
+    width: auto;
+}
+
+.text4-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C26B35;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.text4-overlay :hover{
+    text-decoration: none;
+    color: #F9D6B0; 
+}
+
+div img {
+    border-radius: 35px;
+}
+footer {
+    display: flex;
+    justify-content: center; 
+    padding: 30px;
+    background-color: #C26B35;
+    margin-top: 50px;
+}
+
+footer a {
+    color:#F9D6B0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+}   
+footer ul {
+    margin-right: 40px ;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    line-height: 140%
+}
+
+
+footer ul a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ul.scorciatoie {
+
+    margin-top: 25px; 
+    color:#C26B35;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: justify;
+    padding: 0 17vw 0 17vw;
+    text-align: justify;
+    letter-spacing: -.3px;
+
+}
+.immagine {
+   
+    text-align: center; 
+    
+}
+
+.immagart {
+    border-radius: 0;
+    width: 65%;
+    height: auto;
+}
+
+.testosu {
+    display:flex;
+    justify-content: space-between;
+}
+h4 {
+    color: coral;
+    font-size: 25px;
+    padding: 0 0 0 17vw;
+    margin: 0;
+}
+
+h4 :hover {
+    color: darkred;
+     font-weight: bolder;
+     text-decoration: underline;
+}
+
+
+h5 {
+    color: coral;
+    font-size: 25px;
+    padding: 0 17vw 0 0;
+    margin: 0;
+    justify-content: right;
+}
+
+h5 :hover {
+    color: darkred;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.paragrafoparchi p {
+
+    margin-top: 15px; 
+    color:#435c18; 
+    font-size: 25px; 
+    text-align: justify; 
+    padding: 0 17vw 0 17vw; 
+    letter-spacing: -.3px;
+}
+
+@media (max-width:900px){
+   
+    ul.scorciatoie {
+        letter-spacing: -1.3px;
+    }
+
+    main section.articolouno h2 {
+        letter-spacing: -1.3px;
+    }
+}
+
+@media (max-width:800px){
+   /* #container {
+        display: grid;
+    }*/
+    header h2{
+       /* font-size: 15px;  
+        padding: 13px 20px 0px 0px;
+        margin: 0;*/
+        max-width:100px ;
+        white-space: nowrap;
+       
+}   
+.sottotitolo{
+    font-size: 18px;  
+    padding: 0px 18px 0px 0px;
+    text-align: right;
+    white-space: pre-line;
+    line-height: 16px;
+    max-width: 225px;
+}
+    header a {
+        font-size: 15px; 
+        padding: 0;
+        margin: 0;
+        
+    }
+    ul.scorciatoie {
+        line-height: 30px;
+    }
+    main section.articolouno h2 {
+        line-height: 30px;
+    }
+
+    h4, h5 {
+        font-size: 18px;
+    }
+        
+    
+
+}
+
+
+@media (max-width:600px) {
+    
+h1 { 
+    font-size: 34px;
+    max-width: 295px;
+}
+
+ul.scorciatoie {
+        font-size: 24px;
+    
+}
+    main section.articolouno p {
+        font-size: 19px;
+    }
+    main section.articolouno h2 {
+        font-size: 24px;
+    }
+
+    .paragrafoparchi p {
+        font-size: 19px;
+    }
+
+    h4, h5 {
+        font-size: 15px;
+    }
+
+    
+}
+
