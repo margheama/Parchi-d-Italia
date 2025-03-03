@@ -460,8 +460,8 @@ ul.scorciatoie {
     }
 
     .sottotitolo {
-        font-size: 13px;
-        padding: 0px 25px 0px 0px;
+        font-size: 12px;
+        padding: 5px 25px 0px 0px;
         max-width: 150px;
     }
 }
