@@ -407,7 +407,7 @@ ul.scorciatoie {
         height: 230px;
         width: auto;
     }
-    
+
     .image3-container img {
         height: 230px;
         width: auto;
@@ -416,6 +416,25 @@ ul.scorciatoie {
     .image4-container img {
         height: 230px;
         width: auto;
+    }
+
+    @media (max-width:600px){
+
+        .image1-container {
+            width: 90%;
+        }
+
+        .image2-container {
+            width: 90%;
+        }
+
+        .image3-container {
+            width: 90%;
+        }
+        
+        .image4-container {
+            width: 90%;
+        }
     }
 }
 
