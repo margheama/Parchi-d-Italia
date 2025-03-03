@@ -397,7 +397,25 @@ ul.scorciatoie {
     h4, h5 {
         font-size: 15px;
     }
+ 
+    .image1-container img {
+        height: 230px;
+        width: auto;
+    }
 
+    .image2-container img {
+        height: 230px;
+        width: auto;
+    }
     
+    .image3-container img {
+        height: 230px;
+        width: auto;
+    }
+
+    .image4-container img {
+        height: 230px;
+        width: auto;
+    }
 }
 
