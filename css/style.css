@@ -418,23 +418,50 @@ ul.scorciatoie {
         width: auto;
     }
 
-    @media (max-width:600px){
-
-        .image1-container {
-            width: 90%;
-        }
-
-        .image2-container {
-            width: 90%;
-        }
-
-        .image3-container {
-            width: 90%;
-        }
-        
-        .image4-container {
-            width: 90%;
-        }
-    }
 }
 
+
+@media (max-width:400px){
+
+    .image1-container img {
+        height: 200px;
+        width: auto;
+    }
+
+    .image2-container img {
+        height: 200px;
+        width: auto;
+    }
+
+    .image3-container img {
+        height: 200px;
+        width: auto;
+    }
+
+    .image4-container img {
+        height: 200px;
+        width: auto;
+    }
+
+    .image1-container {
+        width: 90%;
+    }
+
+    .image2-container {
+        width: 90%;
+    }
+
+    .image3-container {
+        width: 90%;
+    }
+
+    .image4-container {
+        width: 90%;
+    }
+
+    .sottotitolo {
+        font-size: 13px;
+        padding: 0px 25px 0px 0px;
+        max-width: 150px;
+    }
+}
