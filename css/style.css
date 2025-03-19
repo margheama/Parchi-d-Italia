@@ -81,27 +81,23 @@ header ul {
     max-width: 360px;
     color: #435c18;
     font-size: 40px;
-    text-align: justify;
+    text-align: left;
     border-bottom: 30px solid #f9d6b0;
-    letter-spacing: -.3px;
 }
  
 
  main section.articolouno h2 {
-    margin-top: 25px; 
     color:#C26B35;
     font-size: 30px;
-    text-align: justify;
-    padding:0 17vw 0 17vw;
+    text-align: left;
+    margin: 2vw 17vw 0 17vw;
  }
  main section.articolouno p {
-    margin-top: 15px;
     color:#435c18;
     font-size: 25px;
-    text-align: justify;
-    padding: 0 17vw 0 17vw;
-    letter-spacing: -.3px;
-    /*max-width: 1200px; */
+    text-align: left;
+    margin: 2vw 17vw 0vw 17vw;
+    max-width: 1265px; /*da verificare*/
  }
 
 #container-img {
@@ -259,12 +255,14 @@ ul.scorciatoie {
     color:#C26B35;
     font-size: 30px;
     font-weight: bolder;
-    text-align: justify;
+    text-align: left;
     padding: 0 17vw 0 17vw;
-    text-align: justify;
-    letter-spacing: -.3px;
 
 }
+ul.scorciatoie :hover {
+    text-decoration: underline;
+}
+
 .immagine {
    
     text-align: center; 
@@ -284,8 +282,7 @@ ul.scorciatoie {
 h4 {
     color: coral;
     font-size: 25px;
-    padding: 0 0 0 17vw;
-    margin: 0;
+    margin: 0vw 0vw 0 17vw;
 }
 
 h4 :hover {
@@ -298,8 +295,7 @@ h4 :hover {
 h5 {
     color: coral;
     font-size: 25px;
-    padding: 0 17vw 0 0;
-    margin: 0;
+    margin: 0 17vw 0 0;
     justify-content: right;
 }
 
@@ -311,40 +307,21 @@ h5 :hover {
 
 .paragrafoparchi p {
 
-    margin-top: 15px; 
     color:#435c18; 
     font-size: 25px; 
-    text-align: justify; 
-    padding: 0 17vw 0 17vw; 
-    letter-spacing: -.3px;
-}
-
-@media (max-width:900px){
-   
-    ul.scorciatoie {
-        letter-spacing: -1.3px;
-    }
-
-    main section.articolouno h2 {
-        letter-spacing: -1.3px;
-    }
+    text-align: left; 
+    margin: 2vw 17vw 2vw 17vw;
+    max-width: 1265px; /*da verificare*/
 }
 
 @media (max-width:800px){
-   /* #container {
-        display: grid;
-    }*/
     header h2{
-       /* font-size: 15px;  
-        padding: 13px 20px 0px 0px;
-        margin: 0;*/
         max-width:100px ;
         white-space: nowrap;
        
 }   
 .sottotitolo{
     font-size: 18px;  
-    padding: 0px 18px 0px 0px;
     text-align: right;
     white-space: pre-line;
     line-height: 16px;
@@ -366,57 +343,65 @@ h5 :hover {
     h4, h5 {
         font-size: 18px;
     }
-        
-    
+   
+    main section.articolouno p {
+        font-size: 21px;
+    }
 
 }
-
 
 @media (max-width:600px) {
     
-h1 { 
-    font-size: 34px;
-    max-width: 295px;
-}
+        h1 { 
+            font-size: 34px;
+            max-width: 295px;
+        }
 
-ul.scorciatoie {
-        font-size: 24px;
+        ul.scorciatoie {
+                font-size: 24px;
+            
+        }
+        main section.articolouno p {
+                font-size: 19px;
+        }
+        main section.articolouno h2 {
+            font-size: 24px;
+        }
+
+        .paragrafoparchi p {
+            font-size: 19px;
+        }
+
+        h4, h5 {
+            font-size: 15px;
+            
+        }
     
-}
-    main section.articolouno p {
-        font-size: 19px;
-    }
-    main section.articolouno h2 {
-        font-size: 24px;
-    }
+        .image1-container img {
+            height: 230px;
+            width: auto;
+        }
 
-    .paragrafoparchi p {
-        font-size: 19px;
-    }
+        .image2-container img {
+            height: 230px;
+            width: auto;
+        }
 
-    h4, h5 {
-        font-size: 15px;
-    }
- 
-    .image1-container img {
-        height: 230px;
-        width: auto;
-    }
+        .image3-container img {
+            height: 230px;
+            width: auto;
+        }
 
-    .image2-container img {
-        height: 230px;
-        width: auto;
-    }
+        .image4-container img {
+            height: 230px;
+            width: auto;
+        }
 
-    .image3-container img {
-        height: 230px;
-        width: auto;
-    }
 
-    .image4-container img {
-        height: 230px;
-        width: auto;
-    }
+        footer ul {
+            display: block;
+            line-height: 35px;
+        }
 
 }
 
@@ -461,7 +446,6 @@ ul.scorciatoie {
 
     .sottotitolo {
         font-size: 12px;
-        padding: 5px 25px 0px 0px;
         max-width: 150px;
     }
 }
